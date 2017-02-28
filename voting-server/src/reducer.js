@@ -7,7 +7,7 @@ switch (action.type) {
     case 'NEXT':
         return next(state);
     case 'VOTE':
-        return vote(state, action.entry)
+        return state.update('vote', voteState => vote(voteState, action.entry));
     }
     return state;
 }
