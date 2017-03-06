@@ -28,6 +28,7 @@
     "express": "^4.15.1",
     "immutable": "^3.8.1",
     "redux": "^3.6.0",
-    "socket.io": "^1.7.3"
+    "socket.io": "^1.7.3",
+    "yeast": "^0.1.2"
   }
 }
